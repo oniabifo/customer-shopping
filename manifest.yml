@@ -1,0 +1,8 @@
+applications:
+  - name: Customer-Application
+path: target/CustomerShopping-0.0.1-SNAPSHOT.jar
+domain: cfapps.io
+services:
+  - myDB1 
+memory: 1gb
+instances: 1
